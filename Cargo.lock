@@ -164,21 +164,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e496a50fda8aacccc86d7529e2c1e0892dbd0f898a6b5645b5561b89c3210efa"
 
 [[package]]
-name = "cy-live-weather"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "phf",
- "quick-xml",
- "reqwest",
- "serde",
- "serde-value",
- "serde_json",
- "tokio",
-]
-
-[[package]]
 name = "encoding_rs"
 version = "0.8.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1174,6 +1159,21 @@ name = "wasm-bindgen-shared"
 version = "0.2.85"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a901d592cafaa4d711bc324edfaff879ac700b19c3dfd60058d2b445be2691eb"
+
+[[package]]
+name = "waybar-cy-live-weather"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "phf",
+ "quick-xml",
+ "reqwest",
+ "serde",
+ "serde-value",
+ "serde_json",
+ "tokio",
+]
 
 [[package]]
 name = "web-sys"
