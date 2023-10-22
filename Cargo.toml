@@ -4,15 +4,15 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-reqwest = "0.11.17"
-anyhow = "1.0.71"
-tokio = { version = "1.28.1", features = [ "rt-multi-thread", "macros" ] }
-quick-xml = { version = "0.28.2", features = [ "async-tokio", "serialize" ] }
-serde = { version = "1.0.163", features = [ "serde_derive" ] }
-serde_json = "1.0.96"
+reqwest = "0.11.22"
+anyhow = "1.0.75"
+tokio = { version = "1.33.0", features = [ "rt-multi-thread", "macros" ] }
+quick-xml = { version = "0.30.0", features = [ "async-tokio", "serialize" ] }
+serde = { version = "1.0.189", features = [ "serde_derive" ] }
+serde_json = "1.0.107"
 serde-value = "0.7"
-clap = { version = "4.2.7", features = ["derive"] }
-phf = { version = "0.11.1", features = ["macros"] }
+clap = { version = "4.4.6", features = ["derive"] }
+phf = { version = "0.11.2", features = ["macros"] }
 
 [profile.release]
 strip = true 
